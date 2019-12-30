@@ -8,7 +8,8 @@
     },
     "files": [
         "README.md",
-        "rover.ts"
+        "rover.ts",
+        "_locales/fr/Rover-strings.json"
     ],
     "testFiles": [
         "test.ts"
