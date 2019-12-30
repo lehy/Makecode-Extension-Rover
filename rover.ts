@@ -613,11 +613,11 @@ namespace Rover {
     }
     
     /**
-     * Combining commands and parameters to be sent into strings.
+     * Combining commands and parameters to be sent into strings, TSET!
      * @param _inOrder Commands to be sent.
      * @param paramters The parameters to be sent
      */
-    //% blockId=rover_send_string block="CMD<order> %_inOrder | CMD<Paramter>%paramters"
+    //% blockId=rover_send_string block="Lala CMD<order> %_inOrder | CMD<Paramter>%paramters"
     //% weight=51
     //% advanced=true
     //% group="Commands"
