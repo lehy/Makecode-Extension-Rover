@@ -600,24 +600,11 @@ namespace Rover {
         return parseFloat(parameterList[index]);
     }
     /**
-     * Tu peux pas test.
-     * @param _inOrder Commandes a envoyer.
-     * @param paramters Parametres a tseter
-     */
-    //% blockId=rover_ronan_test block="Ronan CMD<order> %_inOrder | CMD<Paramter>%paramters"
-    //% weight=51
-    //% advanced=true
-    //% group="Commands"
-    export function RonanTest(_inOrder: Orders, paramters: number): string {
-        return ordersAyyay[_inOrder] + "#" + paramters + "#";
-    }
-    
-    /**
-     * Combining commands and parameters to be sent into strings, TSET!
+     * Combining commands and parameters to be sent into strings.
      * @param _inOrder Commands to be sent.
      * @param paramters The parameters to be sent
      */
-    //% blockId=rover_send_string block="Lala CMD<order> %_inOrder | CMD<Paramter>%paramters"
+    //% blockId=rover_send_string block="CMD<order> %_inOrder | CMD<Paramter>%paramters"
     //% weight=51
     //% advanced=true
     //% group="Commands"
