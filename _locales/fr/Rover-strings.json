@@ -23,7 +23,7 @@
   "Rover.rover_mode_export|block": "%mode",
   "Rover.setALLRGB|block": "couleur des LED %ccolor=rover_colors",
   "Rover.setBrightness|block": "luminosité %br",
-  "Rover.setRGBLED|block": "couleur de la LED %index=rover_led_index à %ccolor=rover_colors",
+  "Rover.setRGBLED|block": "%index=rover_led_index à %ccolor=rover_colors",
   "Rover.setReceiveString|block": "envoyer commande %receivedString",
   "Rover.setRoverMode|block": "mettre le mode %mode",
   "Rover.showColor|block": "%color",

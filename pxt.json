@@ -1,6 +1,6 @@
 {
     "name": "Rover",
-    "version": "1.1.0",
+    "version": "1.1.4",
     "description": "Freenove Micro:Rover extension for makecode & micro:bit",
     "license": "MIT",
     "dependencies": {
@@ -8,7 +8,9 @@
     },
     "files": [
         "README.md",
-        "rover.ts"
+        "rover.ts",
+	"_locales/fr/Rover-strings.json",
+	"_locales/fr/Rover-jsdoc-strings.json"
     ],
     "testFiles": [
         "test.ts"
