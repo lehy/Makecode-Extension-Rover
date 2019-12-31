@@ -6,7 +6,7 @@
   "Rover.MotorRun|block": "moteur|%index|vitesse %speed",
   "Rover.MotorStopAll|block": "%act=MotorActions tous les moteurs",
   "Rover.MotorStop|block": "%act=MotorActions moteur|%index|",
-  "Rover.Move|block": "avancer à la vitesse %speed",
+  "Rover.Move|block": "vitesse %speed",
   "Rover.SendString|block": "commande %_inOrder | paramètre %paramters",
   "Rover.Ultrasonic|block": "distance",
   "Rover.checkMode|block": "le mode est %isMode",
